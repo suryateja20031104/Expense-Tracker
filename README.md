@@ -1,12 +1,33 @@
-# React + Vite
+# 💸 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly web-based application to track personal expenses. This app allows users to add, view, edit, and delete expenses, while providing a visual summary of spending by category.
 
-Currently, two official plugins are available:
+## 🖼️ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💰 **Monthly Summary**: Displays the total expenses for the current month.
+- 📊 **Category Breakdown**: Pie chart visualization for expenses across categories like Food, Transport, and Entertainment.
+- ➕ **Add New Expense**: Add expenses with a title, amount, date, and category.
+- 📜 **Expense History**: View all added expenses with options to search, edit, and delete.
+- 🔍 **Search Functionality**: Filter expenses by title, amount, date, or category.
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: ReactJS
+- **Styling**: CSS, Bootstrap
+- **State Management**: useState, useEffect (React Hooks)
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/suryateja20031104/Expense-Tracker.git
+   cd Expense-Tracker
+2. Install dependencies:
+    ``` bash
+   npm install
+3. Start the development server:
+   ```bash
+    npm run dev
+## 📸 Screenshots
+![Screenshot (38)](https://github.com/user-attachments/assets/26a17ecd-2f83-4ba1-abc8-98c97f4c00ea)
+
